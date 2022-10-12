@@ -119,6 +119,11 @@ Hero Slider - by CodyHouse.co
   overflow: hidden;
 }
 
+#home-image{
+  border-radius: 50%;
+  filter: brightness(58%);
+}
+
 .cd-hero__slide {
   position: absolute;
   top: 0;
@@ -179,30 +184,22 @@ Hero Slider - by CodyHouse.co
 }
 
 .cd-hero__slide:first-of-type {
-  background-color: #E65100;
-  background: linear-gradient(to right,rgb(99, 26, 26), rgb(58, 7, 7) );
+  background-color: black;
+  background-image: url(../images/bgimage8.jpg)
   /* background-image: url(../uploads/slider-01.jpg); */
 }
 
 .cd-hero__slide:nth-of-type(2) {
-  background-color: #E65100;
-  background-image: url(../uploads/slider-02.jpg);
+  background-color: rgb(20, 19, 19);
+  background-image: url(../images/model2.jpg);
+  background-size: cover;
 }
 
 .cd-hero__slide:nth-of-type(3) {
-  background-color: #E65100;
-  background-image: url(../uploads/slider-03.jpg);
+  background-color: black;
+  /* background-image: url(../uploads/slider-03.jpg); */
 }
 
-.cd-hero__slide:nth-of-type(4) {
-  background-color: #E65100;
-  background-image: url(../uploads/slider-04.jpg);
-}
-
-.cd-hero__slide:nth-of-type(5) {
-  background-color: #E65100;
-  background-image: url(../uploads/slider-05.jpg);
-}
 
 .cd-hero__content.cd-hero__content--full-width,
 .cd-hero__content.cd-hero__content--half-width {
@@ -213,7 +210,7 @@ Hero Slider - by CodyHouse.co
   left: 0;
   top: 0;
   /* this padding is used to align the text */
-  padding-top: 100px;
+  padding-top: 80px;
   text-align: center;
   /* Force Hardware Acceleration */
   -webkit-transform: translateZ(0);
@@ -245,8 +242,7 @@ Hero Slider - by CodyHouse.co
           transform: translateX(-50%) translateY(-50%);
 }
 
-.cd-hero__content.cd-hero__content--bg-video {
-  /* hide video on mobile device */
+/* .cd-hero__content.cd-hero__content--bg-video {
   display: none;
   position: absolute;
   top: 0;
@@ -254,10 +250,12 @@ Hero Slider - by CodyHouse.co
   width: 100%;
   height: 100%;
   overflow: hidden;
-}
+} */
+  /* hide video on mobile device */
 
-.cd-hero__content--bg-video video {
-  /* you won't see this element in the html, but it will be injected using javascript */
+
+/* .cd-hero__content--bg-video video {
+  you won't see this element in the html, but it will be injected using javascript
   display: block;
   min-height: 100%;
   min-width: 100%;
@@ -272,7 +270,7 @@ Hero Slider - by CodyHouse.co
   -webkit-transform: translateX(-50%) translateY(-50%);
       -ms-transform: translateX(-50%) translateY(-50%);
           transform: translateX(-50%) translateY(-50%);
-}
+} */
 
 .cd-hero__content h2, .cd-hero__content p {
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
@@ -285,12 +283,12 @@ Hero Slider - by CodyHouse.co
 }
 
 .cd-hero__content h2 {
-  font-size: 38px;
+  font-size: 40px;
   padding: 0px;
 }
 
 .cd-hero__content p {
-  font-size: 22px;
+  font-size: 25px;
   line-height: 1.4;
 }
 
@@ -328,9 +326,9 @@ Hero Slider - by CodyHouse.co
   .cd-hero__content.cd-hero__content--half-width {
     padding-top: 150px;
   }
-  .cd-hero__content.cd-hero__content--bg-video {
+  /* .cd-hero__content.cd-hero__content--bg-video {
     display: block;
-  }
+  } */
   .cd-hero__content.cd-hero__content--half-width {
     width: 50%;
   }

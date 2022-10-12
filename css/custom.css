@@ -1,2 +1,139 @@
-
 /** ADD YOUR AWESOME CODES HERE **/
+
+.port1{
+    background-color: repeating-linear-gradient(right to left, black, blue);
+    height: 50vh;
+}
+
+.top{
+    background-image: url(../images/laptopWP.jpg);
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    line-height: 0.5;
+    margin-top: 8px;
+    color: black;
+    font-size: 20px;
+}
+
+h1{
+    color: white;
+    font-size: xx-large;
+}
+
+.about-right h2{
+	font-size: 30px;
+	font-weight: 600;
+    color: black;
+}
+.about-right p{
+	font-size: 20px; 
+	font-weight: 300;
+    line-height: 1.5;
+    color: white;
+}
+
+.about-Career h2{
+    font-size: 30px;
+	font-weight: 600;
+    background-color: rgb(75, 72, 72);
+    color: antiquewhite;
+}
+
+.about-Career p{
+    font-size: 20px; 
+	font-weight: 400;
+    line-height: 1.5;
+    color: black;
+}
+
+div .about-Career{
+    width: 100vw;
+} 
+
+.about-body{
+    background-color: #111111;
+}
+
+.h1-about{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.h2-portfolio{
+    font-size: 40px;
+}
+
+.social-icons{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.title{
+    margin-top: 8px;
+    font-size: 30px;
+    color: bisque;
+}
+
+.port{
+    background-color: #0c0b0b;
+    background-image: url(../images/laptopWP.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ .portfolioWU{
+    margin: 10px;
+
+}
+.github{
+    width: 45px;
+}
+
+.github:hover{
+    width: 50px;
+    background-color: darkgrey;
+}
+
+.about-project h2{
+    font-size: 30px;
+	font-weight: 600;
+    background-color: rgb(75, 72, 72);
+    color: antiquewhite;
+}
+
+.about-project p{
+    font-size: 20px; 
+	font-weight: 400;
+    line-height: 1.5;
+    color: black;
+}
+
+.about-project a{
+    font-size: 18px;
+    color: black;
+}
+
+.about-project a:hover{
+    font-size: 20px;
+    color: blue;
+}
+
+
+.about-project ul{
+    list-style:circle;
+    margin-left: 30px;
+}
