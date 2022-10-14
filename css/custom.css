@@ -143,13 +143,30 @@ h1{
     border-bottom: 3px double rgb(75, 69, 69);
 }
 
-.whatsapp div{
+.whatsapp{
     display: block;
+    margin-top: 10px;
+    font-size: 20px ;
 }
 
 .whatsapp img{
-    width: 34px;
+    width: 35px;
 }
+
+.whatsapp a{
+    padding: 20px;
+}
+
+.bottom a{
+    padding: 20px;
+    font-size: 20px;
+}
+
+.bottom button{
+    margin: 0 auto;
+    padding: 38px;
+}
+
 
 @media(min-width: 765px){
     .ProjectsPics img{
@@ -166,7 +183,7 @@ h1{
 
     .ProjectsPics img{
         width: auto;
-        height: auto;
+        height: 150px;
         padding: 10px ;
     }
 
@@ -185,6 +202,7 @@ h1{
 
     .about-project h2{
         font-size: 25px;
+        margin-right: 5px;
     }
 }
 
